@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to do list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="to-do-list">
+      <div id="todo-title">
+        <p>Today´s To Do</p>
+        <span id="reload">&#x21bb;</span>
+      </div>
+      <div id="add">
+        <input id="addinput" type="text" placeholder="Add to your list..." />
+        <span id="submittask">&#x21ea;</span>
+      </div>
+      <div id="list"></div>
+      <button id="clear" type="reset">Clear all completed</button>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./modules/add-remove.js"></script>
+    <script type="module" src="./modules/checkbox.js"></script>
+    <script type="module" src="./modules/cleancompleted.js"></script>
+    <script type="module" src="./modules/modifytask.js"></script>
+    <script type="module" src="./modules/printtasks.js"></script>
+    <script type="module" src="./modules/storage.js"></script>
+    <script type="module" src="./modules/tarea.js"></script>
+    <script type="module" src="./modules/variables.js"></script>
+  </body>
+</html>
